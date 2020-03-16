@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="balanceapp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>balanceapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="balanceapp.war">
+      <element id="artifact" artifact-name="balanceapp:war exploded" />
+    </root>
+  </artifact>
+</component>

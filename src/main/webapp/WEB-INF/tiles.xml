@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="login" template="/WEB-INF/jsp/login.jsp">
+        <put-attribute name="header" value="/WEB-INF/jsp/fragments/headTag.jsp"/>
+        <put-attribute name="bodyHeader" value="/WEB-INF/jsp/fragments/bodyHeader.jsp"/>
+        <put-attribute name="title" value=""/>
+        <put-attribute name="nameForm" value=""/>
+        <put-attribute name="descriptionForm" value=""/>
+        <put-attribute name="formBody" value=""/>
+        <put-attribute name="formFooter" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/jsp/fragments/footer.jsp"/>
+    </definition>
+
+    <definition name="profile" template="/WEB-INF/jsp/profile.jsp" extends="login">
+    </definition>
+
+    <definition name="exception" template="/WEB-INF/jsp/exception.jsp" extends="login">
+    </definition>
+</tiles-definitions>
