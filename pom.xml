@@ -14,7 +14,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <spring.version>5.2.1.RELEASE</spring.version>
-        <jackson-json.version>2.10.1</jackson-json.version>
+        <jackson-json.version>2.12.1</jackson-json.version>
         <tomcat.version>8.5.49</tomcat.version>
 
         <!-- Logging -->
